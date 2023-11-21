@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { BallTriangle } from "react-loader-spinner";
 
-const API_KEY = process.env.REACT_APP_API_KEY_VALUE;
+const API_KEY = "db29d42a8b777b9405d8d2925ace02ad";
 const API_URL_WEATHER = "https://api.openweathermap.org/data/2.5/forecast?";
 const API_URL_GEO = "http://api.openweathermap.org/geo/1.0/direct?";
 
